@@ -1,7 +1,9 @@
-# yo-app
+# Form App 
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.12.1.
+Interactive form builder, allows you to dynamically generate a form based on your selection.
+This version uses ng-show and ng-hide to show and hide elements based on the user selection.
+It uses localStorage to store the selection so that state is maintained even if the user
+refreshes the page or closes the browser.
 
 ## Build & development
 
