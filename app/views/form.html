@@ -1,0 +1,22 @@
+<div class="container main-container">
+    <div class="row">
+        <div class="col-md-12">
+          <div>
+            <label class= "label-name" ng-show= "displayData.inputtext">Enter Name</label>
+            <input type= "text" placeholder= "Name text" ng-show= "displayData.inputtext" class= "form-control" maxlength="50">
+            <label class= "label-name" ng-show= "displayData.inputemail">Enter Email</label>
+            <input type= "email" placeholder= "Email" ng-show= "displayData.inputemail" class= "form-control" maxlength= "100" reqiured>
+            <label class= "label-name" ng-show= "displayData.inputpassword">Enter Password</label>
+            <input type= "password" placeholder= "Password" ng-show= "displayData.inputpassword" class= "form-control" maxlength= "8" reqiured>
+            <label class= "label-name" ng-show= "displayData.inputdate">Enter Date</label>
+            <input type= "date" ng-show= "displayData.inputdate" class= "form-control">
+            <label class= "label-name" ng-show= "displayData.textarea">Enter Description</label>
+            <textarea placeholder= "Description" ng-show= "displayData.textarea" class= "form-control" maxlength= "500"></textarea>
+            <label class= "label-name" ng-show= "displayData.inputage">Enter number</label>
+            <input type= "number" placeholder= "Age" ng-show= "displayData.inputage" class= "form-control" min="18" max="99">
+            <label class= "label-name" ng-show= "displayData.inputwebsite">Enter website</label>
+            <input type= "url" placeholder= "Website" ng-show= "displayData.inputwebsite" class= "form-control" pattern="https?://.+">
+          </div>    
+        </div>
+    </div>
+</div>
